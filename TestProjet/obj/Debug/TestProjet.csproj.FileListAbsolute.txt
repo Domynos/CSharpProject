@@ -1,0 +1,6 @@
+C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\TestProjet\bin\Debug\TestProjet.exe.config
+C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\TestProjet\bin\Debug\TestProjet.exe
+C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\TestProjet\bin\Debug\TestProjet.pdb
+C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\TestProjet\obj\Debug\TestProjet.csprojResolveAssemblyReference.cache
+C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\TestProjet\obj\Debug\TestProjet.exe
+C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\TestProjet\obj\Debug\TestProjet.pdb

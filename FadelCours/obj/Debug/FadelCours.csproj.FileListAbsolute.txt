@@ -1,0 +1,6 @@
+C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\FadelCours\bin\Debug\FadelCours.exe.config
+C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\FadelCours\bin\Debug\FadelCours.exe
+C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\FadelCours\bin\Debug\FadelCours.pdb
+C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\FadelCours\obj\Debug\FadelCours.csprojResolveAssemblyReference.cache
+C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\FadelCours\obj\Debug\FadelCours.exe
+C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\FadelCours\obj\Debug\FadelCours.pdb

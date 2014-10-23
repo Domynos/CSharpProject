@@ -1,0 +1,5 @@
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/TestProjet/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/TestProjet/bin/Debug/TestProjet.exe.mdb
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/TestProjet/bin/Debug/TestProjet.exe
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/TestProjet/obj/Debug/TestProjet.exe
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/TestProjet/obj/Debug/TestProjet.exe.mdb

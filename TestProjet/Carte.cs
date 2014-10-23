@@ -16,25 +16,21 @@ namespace TestProjet
 	/// <summary>
 	/// Description of Carte.
 	/// </summary>
-	public class Carte
+	public class Carte : PictureBox
 	{
-		int numeroDeCarte;
+		public int numeroDeCarte;
 		
 		public Carte(int _numeroDeCarte){
 			if(numeroDeCarte > 6 || numeroDeCarte < 0)
 				numeroDeCarte = 0;
 			else
 				numeroDeCarte = _numeroDeCarte;
-		}
-		
-		public PictureBox imageCarte(){
-			string[] filePaths = Directory.GetFiles(@"C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\TestProjet\img");
+
+			string[] filePaths = Directory.GetFiles(@"/Users/lelongclement/Documents/C#_workspace/CSharpProject/TestProjet/img");
 			Image image = Image.FromFile(filePaths[numeroDeCarte]);
-			PictureBox pictureBox = new PictureBox();
-			pictureBox.Image = image;
-			pictureBox.Height = image.Height;
-			pictureBox.Width = image.Width;
-			return pictureBox;
+			this.Image = image;
+			this.Height = image.Height;
+			this.Width = image.Width;
 		}
 	}
 }

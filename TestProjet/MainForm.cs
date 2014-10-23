@@ -18,17 +18,17 @@ namespace TestProjet
 	/// </summary>
 	public partial class MainForm : Form
 	{
+		static Carte carteEnCours;
+		static bool isCarteEnCours = false;
+
 		public MainForm()
 		{
-			//
-			// The InitializeComponent() call is required for Windows Forms designer support.
-			//
 			InitializeComponent();
 			this.Load += MainForm_Load;
 		}
 		
 		private void MainForm_Load(object sender, EventArgs e){			
-			GenererPlateau(Controls,6);
+			GenererPlateau(Controls,4);
 		}
 		
 		static void GenererPlateau(Control.ControlCollection controls,int caseParLigne){
@@ -39,10 +39,28 @@ namespace TestProjet
 			for(i=0;i<cartes.GetLength(0);i++)
 				for(y=0;y<cartes.GetLength(0);y++)
 				{
-					PictureBox pb = cartes[i,y].imageCarte();
-					pb.Location = new Point(i*32, y*32);
-					controls.Add(pb);
+					cartes[i,y].Location = new Point(i*32, y*32);
+					cartes[i,y].MouseClick += new MouseEventHandler(carte_Click);
+					controls.Add(cartes[i,y]);
 				}
+		}
+
+		static void carte_Click(object sender, EventArgs e)
+		{
+			Carte maCarte = (Carte)sender;
+			System.Diagnostics.Debug.WriteLine ("Clické, numero de carte : "+maCarte.numeroDeCarte);
+			if (!isCarteEnCours) {
+				carteEnCours = maCarte;
+				isCarteEnCours = true;
+			}
+			else {
+				if (carteEnCours.numeroDeCarte == maCarte.numeroDeCarte) {
+					maCarte.Visible = false;
+					carteEnCours.Visible = false;
+					isCarteEnCours = false;
+				} else
+					isCarteEnCours = false;
+			}
 		}
 	}
 }

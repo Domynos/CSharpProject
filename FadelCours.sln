@@ -1,7 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-# SharpDevelop 5.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FadelCours", "FadelCours\FadelCours.csproj", "{745FE23F-B5A5-4C11-95CF-057983572D10}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjet", "TestProjet\TestProjet.csproj", "{D2B55F69-0B9D-441B-83B0-ADD493B9A67C}"
@@ -20,5 +19,8 @@ Global
 		{D2B55F69-0B9D-441B-83B0-ADD493B9A67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2B55F69-0B9D-441B-83B0-ADD493B9A67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2B55F69-0B9D-441B-83B0-ADD493B9A67C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TestProjet\TestProjet.csproj
 	EndGlobalSection
 EndGlobal

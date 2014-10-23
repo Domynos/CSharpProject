@@ -1,0 +1,4 @@
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/TestProjet/obj/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/TestProjet/bin/Release/TestProjet.exe.config
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/TestProjet/bin/Release/TestProjet.exe
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/TestProjet/obj/Release/TestProjet.exe

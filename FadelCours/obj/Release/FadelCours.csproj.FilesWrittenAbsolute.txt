@@ -1,0 +1,4 @@
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/FadelCours/obj/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/FadelCours/bin/Release/FadelCours.exe.config
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/FadelCours/bin/Release/FadelCours.exe
+/Users/lelongclement/Documents/C#_workspace/CSharpProject/FadelCours/obj/Release/FadelCours.exe

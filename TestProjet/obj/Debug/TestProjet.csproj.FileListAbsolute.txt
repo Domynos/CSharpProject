@@ -4,3 +4,14 @@ C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\TestProjet\bin\Debug\T
 C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\TestProjet\obj\Debug\TestProjet.csprojResolveAssemblyReference.cache
 C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\TestProjet\obj\Debug\TestProjet.exe
 C:\Users\darty\Documents\SharpDevelop Projects\FadelCours\TestProjet\obj\Debug\TestProjet.pdb
+C:\Users\darty\Documents\Visual Studio 2012\Projects\FadelCours\TestProjet\obj\Debug\TestProjet.JeuDeDamesForm.resources
+C:\Users\darty\Documents\Visual Studio 2012\Projects\FadelCours\TestProjet\obj\Debug\TestProjet.csproj.GenerateResource.Cache
+C:\Users\darty\Documents\Visual Studio 2012\Projects\FadelCours\TestProjet\obj\Debug\TestProjet.exe
+C:\Users\darty\Documents\Visual Studio 2012\Projects\FadelCours\TestProjet\obj\Debug\TestProjet.MainForm.resources
+C:\Users\darty\Documents\Visual Studio 2012\Projects\FadelCours\TestProjet\bin\Debug\TestProjet.exe.config
+C:\Users\darty\Documents\Visual Studio 2012\Projects\FadelCours\TestProjet\bin\Debug\TestProjet.exe
+C:\Users\darty\Documents\Visual Studio 2012\Projects\FadelCours\TestProjet\bin\Debug\TestProjet.pdb
+C:\Users\darty\Documents\Visual Studio 2012\Projects\FadelCours\TestProjet\obj\Debug\TestProjet.pdb
+C:\Users\darty\Documents\Visual Studio 2012\Projects\FadelCours\TestProjet\obj\Debug\TestProjet.csprojResolveAssemblyReference.cache
+C:\Users\darty\Documents\Visual Studio 2012\Projects\FadelCours\TestProjet\obj\Debug\TestProjet.MenuDemineur.resources
+C:\Users\darty\Documents\Visual Studio 2012\Projects\FadelCours\TestProjet\obj\Debug\TestProjet.ressources.Resource1.resources

@@ -16,7 +16,7 @@ namespace TestProjet
 	public class Plateau
 	{
 		public Carte[,] plateauCartes {get; set;}
-		private int caseParLigne;
+		public int caseParLigne;
 		
 		public Plateau(){}
 		
@@ -33,11 +33,11 @@ namespace TestProjet
 					for(j=0;j<caseParLigne;j++)
 					{
 						if(!next){
-							plateauCartes[i,j] = new Carte(y);
+							plateauCartes[i,j] = new Carte(y,0);
 							next = true;
 						}
 						else{
-							plateauCartes[i,j] = new Carte(y);
+							plateauCartes[i,j] = new Carte(y,1);
 							next = false;
 							y++;
 						}

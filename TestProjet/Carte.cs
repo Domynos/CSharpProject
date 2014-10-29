@@ -19,18 +19,43 @@ namespace TestProjet
 	public class Carte : PictureBox
 	{
 		public int numeroDeCarte;
+		public int numeroDeSerie;
+		public bool isHide = false;
+		public bool isDiscover = false;
 		
-		public Carte(int _numeroDeCarte){
+		public Carte(int _numeroDeCarte, int _numeroDeSerie){
 			if(numeroDeCarte > 6 || numeroDeCarte < 0)
 				numeroDeCarte = 0;
 			else
 				numeroDeCarte = _numeroDeCarte;
+			
+			numeroDeSerie = _numeroDeSerie;
 
-			string[] filePaths = Directory.GetFiles(@"/Users/lelongclement/Documents/C#_workspace/CSharpProject/TestProjet/img");
+			string[] filePaths = Directory.GetFiles(@"..\..\img_cartes");
 			Image image = Image.FromFile(filePaths[numeroDeCarte]);
 			this.Image = image;
 			this.Height = image.Height;
 			this.Width = image.Width;
+			this.RetournerCarte();
+		}
+		
+		public void RetournerCarte(){
+			if(!isHide){
+				Image image = Image.FromFile(@"..\..\img\hidden.png");
+				this.Image = image;
+				this.Height = image.Height;
+				this.Width = image.Width;
+				isHide = true;
+			}
+			else if(isHide){
+				string[] filePaths = Directory.GetFiles(@"..\..\img_cartes");
+				Image image = Image.FromFile(filePaths[numeroDeCarte]);
+				this.Image = image;
+				this.Height = image.Height;
+				this.Width = image.Width;
+				isHide = false;
+			}
+			
 		}
 	}
 }
